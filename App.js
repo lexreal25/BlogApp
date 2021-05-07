@@ -1,13 +1,25 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native'
+import { createDrawerNavigator } from '@react-navigation/drawer'
+import { createStackNavigator } from '@react-navigation/stack'
+
+import Discover from './components/Discover';
+import Card from './components/Card'
+import Beauty from './components/Beauty'
+const Drawer = createDrawerNavigator()
+
+//const Stack = createStackNavigator()
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer style={styles.container}>
+      <Drawer.Navigator initialRouteName="Discover" screenOptions={{headerShown:true}}>
+        <Drawer.Screen name='Discover' component={Discover}  />
+        <Drawer.Screen name="Beauty" component={Beauty}/>
+      </Drawer.Navigator>
+    </NavigationContainer>
   );
 }
 
@@ -15,7 +27,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    
   },
 });
