@@ -17,7 +17,7 @@ export default function Beauty({route, navigation}) {
             <View style={{width: 250, height: 250, backgroundColor:'pink'}}></View>
             <View style={{flex:1, padding: 25,position:'absolute', top: 30,}}>
             {/* header icons */}
-            <View style={{flexDirection:'row',marginVertical: 10, justifyContent:'space-between'}}>
+            <View style={{flexDirection:'row',marginBottom: 20, justifyContent:'space-between'}}>
                 <View style={{flexDirection:'row', justifyContent:'space-between'}}>
                     <AntDesign name="left" size={25} color="black" />
                     <Text style={{fontSize:20, fontWeight:'700'}}>Beauty</Text>
