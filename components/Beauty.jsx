@@ -3,6 +3,7 @@ import { View, Text, Image, ScrollView } from 'react-native'
 
 import { AntDesign } from '@expo/vector-icons';
 import { Feather } from '@expo/vector-icons';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 
 
 
@@ -19,7 +20,9 @@ export default function Beauty({route, navigation}) {
             {/* header icons */}
             <View style={{flexDirection:'row',marginBottom: 20, justifyContent:'space-between'}}>
                 <View style={{flexDirection:'row', justifyContent:'space-between'}}>
-                    <AntDesign name="left" size={25} color="black" />
+                   <TouchableOpacity onPress={() => navigation.goBack()}>
+                        <AntDesign name="left" size={25} color="black" />
+                   </TouchableOpacity>
                     <Text style={{fontSize:20, fontWeight:'700'}}>Beauty</Text>
                 </View>
                 <View style={{flexDirection:'row', justifyContent:'space-between'}}>

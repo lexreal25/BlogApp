@@ -13,7 +13,7 @@ export const data = [
     },
     {
         id: 2,
-        title:'Lorem Ipsum is simply dumy. Lorem Ipsum has been the industry',
+        title:'Fruits and Vegetables are the best source of Vitamins and Minerals',
         coverImage:require('../assets/vegis.jpeg'),
         profileImage,
         time,
@@ -22,8 +22,8 @@ export const data = [
     },
     {
         id: 3,
-        title:'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
-        coverImage:require('../assets/vegis.jpeg'),
+        title:'The Health Benefits of Apple',
+        coverImage:require('../assets/apple.jpg'),
         profileImage,
         time,
         profileName:"Danny Moorstreet",
@@ -31,8 +31,8 @@ export const data = [
     },
     {
         id: 4,
-        title:'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
-        coverImage:require('../assets/vegis.jpeg'),
+        title:'Creation and the Omnipotent',
+        coverImage:require('../assets/worship.jpg'),
         profileImage,
         time,
         profileName:"Danny Moorstreet",
@@ -40,8 +40,8 @@ export const data = [
     },
     {
         id: 5,
-        title:'Lorem Ipsum is simply dummy text of the printing and typesetting',
-        coverImage:require('../assets/vegis.jpeg'),
+        title:'Need a Mouth Watering Meal for Lunch?',
+        coverImage:require('../assets/meal.jpg'),
         profileImage,
         time,
         profileName:"Danny Moorstreet",
@@ -50,7 +50,7 @@ export const data = [
     {
         id: 6,
         title:'Lorem Ipsum is simply dummy text of the printing and typesetting',
-        coverImage:require('../assets/vegis.jpeg'),
+        coverImage:require('../assets/steal.jpg'),
         profileImage,
         time,
         profileName:"Danny Moorstreet",
@@ -59,7 +59,7 @@ export const data = [
     {
         id: 7,
         title:'Lorem Ipsum is simply dummy text of the printing',
-        coverImage: require('../assets/back2.jpg'),
+        coverImage: require('../assets/top-wall.png'),
         profileImage,
         time,
         profileName:"Danny Moorstreet",

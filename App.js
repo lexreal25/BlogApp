@@ -30,10 +30,10 @@ export default function App() {
               iconName = focused ? 'home' : 'home-outline';
             }else if(route.name === 'Beauty'){
               iconName = focused ? 'folder-sharp' :'folder-outline'
-            }else if(route.iconName === "Settings"){
+            }else if(route.name === "Settings"){
               iconName = focused ? 'settings' : 'settings-outline'
             }
-            else if(route.iconName === "Account"){
+            else if(route.name === "Account"){
               iconName = focused ? 'md-person' : 'md-person-outline'
             }
              return <Ionicons name={iconName} size={size} color={color} />
