@@ -13,7 +13,9 @@ export default function Card(props) {
     return (
         <View style={styles.container}>
             <TouchableOpacity style={styles.cardContainer}
+
                 onPress={() => nagivation.navigate('Beauty',{
+                    
                     title,coverImage,profileImage,profileName,time,details
                 })}
             >
@@ -23,12 +25,17 @@ export default function Card(props) {
                 {/* card content design */}
                 <View style={styles.cardMain}>
                    <View style={styles.card}>
+
                         <Image source={coverImage} style={{width: 90, height: 100, borderRadius: 5}} />
-                        <Text style={{margin: 5, fontSize: 15, fontWeight:'600',fontStyle:'normal'}} numberOfLines={2}>{title}</Text>
+                        
+                        <Text style={{marginVertical:7, marginHorizontal:5, fontSize: 17, fontWeight:'600',fontStyle:'normal'}} numberOfLines={2}>{title}</Text>
                    </View>
                    <View style={{position:'absolute',top: 70, left:95, flexDirection:'row'}}>
+
                        <Image source={profileImage} style={{width:30, height:30,borderRadius:100}} />
+
                        <Text style={{marginLeft: 10, marginTop:3,fontSize:14}}>{profileName}</Text>
+
                        <Text style={{marginLeft: 10, marginTop:3,color:'#D2D7D3',fontWeight:'400',fontStyle:'normal'}}>{time}</Text>
                     </View>
                 </View>
