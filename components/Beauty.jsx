@@ -22,8 +22,9 @@ export default function Beauty({route, navigation}) {
                 <View style={{flexDirection:'row', justifyContent:'space-between'}}>
                    <TouchableOpacity onPress={() => navigation.goBack()}>
                         <AntDesign name="left" size={25} color="black" />
+                        <Text style={{fontSize:20, fontWeight:'700'}}>Beauty</Text>
                    </TouchableOpacity>
-                    <Text style={{fontSize:20, fontWeight:'700'}}>Beauty</Text>
+                    
                 </View>
                 <View style={{flexDirection:'row', justifyContent:'space-between'}}>
                     <Feather name="headphones" size={20} color="black" />

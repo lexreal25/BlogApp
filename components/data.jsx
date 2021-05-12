@@ -65,5 +65,44 @@ export const data = [
         profileName:"Danny Moorstreet",
         details: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English",
     },
+    {
+        id: 8,
+        title:'Lorem Ipsum is simply dummy text of the printing',
+        coverImage: require('../assets/top-wall.png'),
+        profileImage,
+        time,
+        profileName:"Danny Moorstreet",
+        details: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English",
+    },
+    
+    {
+        id: 9,
+        title:'Lorem Ipsum is simply dummy text of the printing',
+        coverImage: require('../assets/top-wall.png'),
+        profileImage,
+        time,
+        profileName:"Danny Moorstreet",
+        details: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English",
+    },
+    
+    {
+        id: 10,
+        title:'Lorem Ipsum is simply dummy text of the printing',
+        coverImage: require('../assets/top-wall.png'),
+        profileImage,
+        time,
+        profileName:"Danny Moorstreet",
+        details: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English",
+    },
+    
+    {
+        id: 11,
+        title:'Lorem Ipsum is simply dummy text of the printing',
+        coverImage: require('../assets/top-wall.png'),
+        profileImage,
+        time,
+        profileName:"Danny Moorstreet",
+        details: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English",
+    }
     
 ]

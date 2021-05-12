@@ -7,13 +7,11 @@ import { data } from './data'
 export default function Discover() {
     return (
         <SafeAreaView style={styles.container}>
-            <View>
-                <FlatList
-                    data={data}
-                    renderItem={(item) => <Card data={item.item} />}
-                    keyExtractor={data => data.id.toString()}
-                />
-            </View>  
+             <FlatList
+                data={data}
+                renderItem={(item) => <Card data={item.item} />}
+                keyExtractor={data => data.id.toString()}
+            />
         </SafeAreaView>
     )
 }
